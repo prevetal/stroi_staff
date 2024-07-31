@@ -1,0 +1,931 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 360px;
+        --font_size: 16px;
+        --font_size_title: 40px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+    .block.big_m
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .content
+    {
+        width: calc(100% - var(--sidebar_width) - 24px);
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        right: 32px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 52px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header.absolute .cont
+    {
+        padding: 0 48px;
+    }
+
+
+    header .logo img
+    {
+        width: 320px;
+    }
+
+
+    header .messengers a
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    header .messengers .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    header .feedback_btn
+    {
+        width: 248px;
+        height: 48px;
+        margin-left: 24px;
+    }
+
+
+    header .menu
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .title
+    {
+        font-size: 20px;
+    }
+
+
+    aside .title.small
+    {
+        margin-top: 16px;
+    }
+
+
+    aside .desc
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        line-height: calc(100% + 10px);
+    }
+
+
+    .block_head * + .desc
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 48px;
+        padding: 0 23px;
+    }
+
+
+    .form textarea
+    {
+        padding-right: 23px;
+        padding-left: 23px;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 248px;
+        height: 48px;
+    }
+
+
+    .form .iti__selected-country-primary
+    {
+        padding-left: 23px;
+    }
+
+
+
+    /*----------------
+        Enter page
+    ----------------*/
+    .enter_page > *
+    {
+        padding: 80px 48px 48px;
+    }
+
+
+    .enter_page .desc
+    {
+        width: 328px;
+        margin-top: 24px;
+    }
+
+
+    .enter_page .btn
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    .first_section .slider
+    {
+        width: 480px;
+    }
+
+
+    .first_section .slider .swiper-slide
+    {
+        min-height: 560px;
+        padding: 80px 40px 128px;
+    }
+
+
+    .first_section .slider .btn
+    {
+        width: 248px;
+        height: 48px;
+    }
+
+
+    .first_section .slider .controls
+    {
+        padding: 40px;
+    }
+
+
+
+    .first_section .image
+    {
+        width: calc(100% - 504px);
+    }
+
+
+
+    .first_section .advantages
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .advantages .item
+    {
+        padding: 0 24px 24px;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+
+    .advantages .item .icon img
+    {
+        width: 34px;
+        height: 34px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 18px;
+
+        min-height: 68px;
+        padding-left: 72px;
+    }
+
+
+    .advantages .item .desc
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .text_block
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .list > *
+    {
+        padding-bottom: 16px;
+    }
+
+
+    .services .list > * + *
+    {
+        padding-top: 16px;
+    }
+
+
+    .services .item .main .name
+    {
+        width: calc(100% - 72px);
+    }
+
+
+    .services .item .main .icon
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .map_link a
+    {
+        padding: 12px 32px;
+    }
+
+
+    .projects .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .projects .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+    .projects .row > *.big
+    {
+        width: calc(66.666% - 24px);
+    }
+
+
+    .projects .project .stickers
+    {
+        top: 18px;
+        left: 18px;
+    }
+
+
+    .projects .project .stickers .type,
+    .projects .project .stickers .city,
+    .projects .project .stickers .metro
+    {
+        padding: 8px 12px;
+    }
+
+
+    .projects .project .info > *:first-child
+    {
+        width: calc(100% - 148px);
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 21px;
+    }
+
+
+    .projects .project .btn
+    {
+        width: 124px;
+    }
+
+
+    .projects .project.big .thumb
+    {
+        height: 361px;
+    }
+
+
+    .projects .project.big .name
+    {
+        line-height: calc(100% + 10px);
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .why_we .item .val
+    {
+        font-size: 28px;
+
+        padding-bottom: 12px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .steps .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .steps .step
+    {
+        height: 240px;
+        padding: 32px;
+    }
+
+
+    .steps .step .name
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+    .steps .step:not(.empty):before
+    {
+        font-size: 28px;
+
+        bottom: 32px;
+        left: 32px;
+    }
+
+
+
+    /*-----------
+        Staff
+    -----------*/
+    .staff .tabs .btn
+    {
+        font-size: 20px;
+
+        padding-bottom: 20px;
+    }
+
+
+    .staff .tabs .btn + .btn
+    {
+        margin-top: 20px;
+    }
+
+
+    .staff .tabs .btn span
+    {
+        width: calc(100% - 72px);
+    }
+
+
+    .staff .tabs .btn .icon
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .staff .grid
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .staff .grid > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .staff .item .name.top,
+    .staff .item .info,
+    .staff .item .btns
+    {
+        padding: 24px;
+    }
+
+
+    .staff .item .name
+    {
+        font-size: 20px;
+
+        width: calc(100% - 148px);
+    }
+
+
+    .staff .item .btn,
+    .staff .item .btn.order_btn,
+    .staff .item .btn.details_btn
+    {
+        width: 124px;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc
+    {
+        padding: 68px 0;
+    }
+
+
+    .calc .form .columns
+    {
+        --form_columns_offset: 68px;
+    }
+
+
+    .calc .form .included
+    {
+        padding: 40px;
+    }
+
+
+    .calc .form .included .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .calc .form .included .row > *
+    {
+        max-width: calc(100% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+        padding-left: 40px;
+    }
+
+
+    .calc .form .included .row > *:nth-child(3n+1)
+    {
+        width: 189px;
+    }
+
+    .calc .form .included .row > *:nth-child(3n+2)
+    {
+        width: 270px;
+    }
+
+    .calc .form .included .row > *:nth-child(3n+3)
+    {
+        width: 256px;
+    }
+
+
+
+    /*-----------------
+        Calc result
+    -----------------*/
+    .calc_result
+    {
+        padding: 80px 0;
+    }
+
+
+    .calc_result .data
+    {
+        padding: 40px;
+    }
+
+
+    .calc_result .close_btn
+    {
+        top: 24px;
+        right: 40px;
+    }
+
+
+    .calc_result .items
+    {
+        width: calc(100% - 264px);
+    }
+
+
+    .calc_result .items > *
+    {
+        padding-left: 24px;
+    }
+
+
+    .calc_result .items > *:nth-child(3n+1)
+    {
+        width: 306px;
+    }
+
+    .calc_result .items > *:nth-child(3n+2)
+    {
+        width: 167px;
+    }
+
+    .calc_result .items > *:nth-child(3n+3)
+    {
+        width: 334px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases aside.absolute
+    {
+        left: 24px;
+    }
+
+
+    .cases .customer
+    {
+        margin-top: 88px;
+    }
+
+
+    .cases .customer .label,
+    .cases .location .label
+    {
+        font-size: 20px;
+
+        width: 200px;
+    }
+
+
+    .cases .gallery .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .cases .gallery .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .cases .data .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .cases .data .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+    .cases .data .row > *.big
+    {
+        width: calc(100% - 24px);
+    }
+
+
+    .cases .data .item
+    {
+        padding: 24px;
+    }
+
+
+    .cases .data .item .title
+    {
+        font-size: 28px;
+    }
+
+
+    .cases .data .item .title:after
+    {
+        width: 200px;
+    }
+
+
+    .cases .data .item ul li:before
+    {
+        top: 6px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .clients .grid + .grid
+    {
+        margin-top: 24px;
+    }
+
+
+    .clients .grid > *:nth-child(1)
+    {
+        width: 112px;
+    }
+
+    .clients .grid > *:nth-child(2),
+    .clients .grid > *:nth-child(4),
+    .clients .grid > *:nth-child(5)
+    {
+        width: 148px;
+    }
+
+    .clients .grid > *:nth-child(3)
+    {
+        width: 116px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        padding: 40px;
+    }
+
+
+    .contacts_info .work_time
+    {
+        line-height: 24px;
+
+        margin-top: 24px;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 220px;
+        margin-top: 0;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .data
+    {
+        padding: 48px 60px;
+    }
+
+
+    .order_block .data .info
+    {
+        width: 340px;
+    }
+
+
+    .order_block .data .info .title
+    {
+        font-size: 32px;
+    }
+
+
+    .order_block .data .block_head
+    {
+        margin-bottom: 30px;
+        padding-top: 10px;
+    }
+
+
+    .order_block .data .form .submit
+    {
+        padding-top: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 24px;
+    }
+
+
+    footer .logo img
+    {
+        width: 320px;
+    }
+
+
+    footer .messengers a
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    footer .messengers .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    footer .menu
+    {
+        width: 496px;
+        margin-top: 24px;
+        margin-left: 68px;
+    }
+
+
+    footer .menu .row
+    {
+        margin-left: -24px;
+    }
+
+    footer .menu .row > *
+    {
+        margin-left: 24px;
+    }
+
+
+    footer .contacts .phone
+    {
+        font-size: 30px;
+    }
+
+
+    footer .contacts .work_time
+    {
+        line-height: 24px;
+    }
+
+
+    footer .copyright
+    {
+        width: 320px;
+    }
+
+
+    footer .links
+    {
+        margin-left: 68px;
+    }
+
+
+    footer .links > * + *
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 880px;
+        padding: 60px 80px;
+    }
+
+
+    .modal_title
+    {
+        line-height: 120%;
+
+        margin-bottom: 32px;
+    }
+}

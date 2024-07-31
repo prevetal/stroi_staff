@@ -1,0 +1,735 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 28px;
+    }
+
+
+    .block,
+    .block.big_m
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 12px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 30px;
+    }
+
+
+    .all_link a
+    {
+        width: 100%;
+        padding: 12px 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header.absolute
+    {
+        padding: 20px 0;
+    }
+
+
+    header.absolute .logo img
+    {
+        width: 240px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        margin-bottom: 20px;
+        padding: 20px 0;
+    }
+
+
+    .mob_header .logo img
+    {
+        width: 220px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .block_head.pad_r
+    {
+        padding-right: 0;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *,
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*----------------
+        Enter page
+    ----------------*/
+    .enter_page > *
+    {
+        padding: 24px;
+    }
+
+
+    .enter_page .desc
+    {
+        width: 284px;
+        margin-top: 16px;
+    }
+
+
+    .enter_page .btn
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    .first_section .slider
+    {
+        width: 100%;
+    }
+
+
+    .first_section .slider .swiper-slide
+    {
+        min-height: 420px;
+        padding: 40px 24px 100px;
+    }
+
+
+    .first_section .image
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 24px;
+        padding-bottom: 125%;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .item .main .name
+    {
+        font-size: 18px;
+        line-height: 20px;
+
+        width: calc(100% - 60px);
+    }
+
+
+    .services .item .main .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .services .item .main .icon svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .projects .map_link
+    {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .projects .map_link a
+    {
+        width: 100%;
+        padding: 12px 24px;
+    }
+
+
+    .projects .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .projects .row > *,
+    .projects .row > *.big
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+    .projects .project .stickers
+    {
+        top: 20px;
+        left: 20px;
+    }
+
+
+    .projects .project .thumb,
+    .projects .project.big .thumb
+    {
+        height: auto;
+        margin-bottom: 20px;
+        padding-bottom: 65.454%;
+    }
+
+
+    .projects .project .info
+    {
+        padding: 0;
+    }
+
+
+    .projects .project.big .info
+    {
+        position: relative;
+
+        padding: 0;
+
+        color: var(--text_color);
+    }
+
+
+    .projects .project.big .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .why_we .item
+    {
+        width: 100%;
+    }
+
+
+    .why_we .item + .item
+    {
+        margin-top: 30px;
+    }
+
+
+    .why_we .item .val
+    {
+        padding-bottom: 10px;
+    }
+
+
+    .why_we .item .desc br
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        overflow: hidden;
+    }
+
+
+    .steps .bg
+    {
+        top: -53px;
+        right: 0;
+        left: auto;
+
+        width: 180%;
+        height: 740px;
+    }
+
+
+    .steps .head
+    {
+        padding: 52px 0 388px;
+    }
+
+
+    .steps .row
+    {
+        margin-left: 0;
+    }
+
+
+    .steps .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .steps .step
+    {
+        height: 200px;
+    }
+
+
+    .steps .step.empty
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Staff
+    -----------*/
+    .staff .block_head
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .staff aside
+    {
+        display: none;
+    }
+
+
+    .staff .mob_tab_btn
+    {
+        display: flex;
+    }
+
+
+    .staff .grid
+    {
+        margin-bottom: 0;
+        margin-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        border-bottom: 1px solid rgba(35, 35, 35, .20);
+    }
+
+
+    .staff .grid > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .staff .tab_content
+    {
+        display: none;
+        visibility: visible;
+
+        height: auto;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .staff .tab_content.active
+    {
+        display: block;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc
+    {
+        padding: 52px 0 60px;
+    }
+
+
+    .calc .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .calc .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .calc .form .included
+    {
+        margin-bottom: 30px;
+        padding: 24px;
+    }
+
+
+    .calc .form .included .row
+    {
+        margin-left: 0;
+    }
+
+
+    .calc .form .included .row > *:nth-child(3n+1),
+    .calc .form .included .row > *:nth-child(3n+2),
+    .calc .form .included .row > *:nth-child(3n+3)
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .calc .form .exp
+    {
+        margin-top: 30px;
+    }
+
+
+    .calc .form .exp > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-----------------
+        Calc result
+    -----------------*/
+    .calc_result .data
+    {
+        padding: 24px;
+    }
+
+
+    .calc_result .close_btn
+    {
+        top: 24px;
+        right: 24px;
+    }
+
+
+    .calc_result .close_btn .icon
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    .calc_result .items > *:nth-child(3n+1),
+    .calc_result .items > *:nth-child(3n+2),
+    .calc_result .items > *:nth-child(3n+3)
+    {
+        width: 100%;
+    }
+
+
+    .calc_result .total_price .price
+    {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .order_block .data
+    {
+        padding: 28px;
+    }
+
+
+    .order_block .data .info .title,
+    .order_block .data .info .title.small
+    {
+        font-size: 26px;
+    }
+
+
+    .order_block .data .block_head .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .customer
+    {
+        width: 100%;
+    }
+
+
+    .cases .location
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .cases .gallery .row,
+    .cases .data .row
+    {
+        margin-left: 0;
+    }
+
+
+    .cases .gallery .row > *,
+    .cases .data .row > *,
+    .cases .data .row > *.big
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .cases .data .item .title
+    {
+        font-size: 22px;
+    }
+
+
+    .cases .data .item ul li:before
+    {
+        top: 5px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .clients .grid > *:nth-child(1)
+    {
+        width: 56px;
+    }
+
+    .clients .grid > *:nth-child(2),
+    .clients .grid > *:nth-child(4),
+    .clients .grid > *:nth-child(5)
+    {
+        width: 76px;
+    }
+
+    .clients .grid > *:nth-child(3)
+    {
+        width: 56px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        padding: 24px;
+    }
+
+
+    .contacts_info .title
+    {
+        font-size: 28px;
+        line-height: 38px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .contacts_info .work_time
+    {
+        margin-top: 20px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: 100%;
+        height: 200px;
+        margin-top: 24px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography .types .title
+    {
+        font-size: 20px;
+        line-height: 30px;
+
+        padding: 20px 54px 20px 0;
+    }
+
+
+    .geography .types .title .icon
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .geography .types .title .icon svg
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .certs .swiper-button-next,
+    .certs .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .certs .swiper-pagination
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo img
+    {
+        width: 240px;
+    }
+
+
+
+    footer .messengers a
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    footer .messengers .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px;
+    }
+}

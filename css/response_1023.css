@@ -1,0 +1,568 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+    .block.big_m
+    {
+        margin-bottom: 100px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 24px;
+        right: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header.absolute .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    header .logo img
+    {
+        width: 280px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 24px;
+    }
+
+
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(50% - var(--form_columns_offset));
+    }
+
+
+
+    /*----------------
+        Enter page
+    ----------------*/
+    .enter_page > *
+    {
+        align-content: flex-end;
+        align-items: flex-end;
+        flex: 1 0 auto;
+
+        width: 100%;
+        padding: 80px 24px 48px;
+    }
+
+
+    .enter_page .btn
+    {
+        width: 240px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-left: 0;
+    }
+
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .advantages .item .icon img
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .advantages .item .name
+    {
+        min-height: 64px;
+        padding-left: 64px;
+    }
+
+
+    .advantages .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+    .projects .row > *.big
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .item .val
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .step
+    {
+        height: 180px;
+    }
+
+
+    .steps .step .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .steps .step:not(.empty):before
+    {
+        font-size: 24px;
+    }
+
+
+    .steps .bg
+    {
+        width: 116%;
+        height: 72vw;
+    }
+
+
+
+    /*-----------
+        Staff
+    -----------*/
+    .staff .grid > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .staff .item .name.top,
+    .staff .item .info,
+    .staff .item .btns
+    {
+        padding: 20px 24px;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc .form .line
+    {
+        order: 3;
+    }
+
+    .calc .form .line.modal_cont
+    {
+        order: 1;
+    }
+
+
+    .calc .form .mini_modal_btn
+    {
+        pointer-events: auto;
+    }
+
+
+    .calc .form .mini_modal
+    {
+        position: absolute;
+        top: 100%;
+
+        visibility: hidden;
+
+        pointer-events: none;
+
+        opacity: 0;
+    }
+
+
+    .calc .form .mini_modal.active
+    {
+        visibility: visible;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .calc .form .field + .field
+    {
+        margin-top: 24px;
+    }
+
+
+    .calc .form .included
+    {
+        padding: 28px;
+    }
+
+
+    .calc .form .included .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .calc .form .included .row > *
+    {
+        font-size: 15px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .calc .form .included .row > *:nth-child(3n+1),
+    .calc .form .included .row > *:nth-child(3n+2),
+    .calc .form .included .row > *:nth-child(3n+3)
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*-----------------
+        Calc result
+    -----------------*/
+    .calc_result .data
+    {
+        padding: 28px;
+    }
+
+
+    .calc_result .close_btn
+    {
+        top: 28px;
+        right: 28px;
+    }
+
+
+    .calc_result .items
+    {
+        width: calc(100% + 24px);
+        margin-bottom: -16px;
+        margin-left: -24px;
+    }
+
+
+    .calc_result .items > *
+    {
+        max-width: calc(100% - 24px);
+        margin-bottom: 16px;
+        margin-left: 24px;
+        margin-left: 24px;
+    }
+
+
+    .calc_result .items > *:nth-child(3n+1),
+    .calc_result .items > *:nth-child(3n+2),
+    .calc_result .items > *:nth-child(3n+3)
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .data .item .title
+    {
+        font-size: 24px;
+    }
+
+
+    .cases .data .item ul li
+    {
+        padding-left: 24px;
+    }
+
+
+
+    .cases .swiper .controls
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .clients .grid > *:nth-child(1)
+    {
+        width: 96px;
+    }
+
+    .clients .grid > *:nth-child(2),
+    .clients .grid > *:nth-child(4),
+    .clients .grid > *:nth-child(5)
+    {
+        width: 124px;
+    }
+
+    .clients .grid > *:nth-child(3)
+    {
+        width: 96px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        padding: 28px;
+    }
+
+
+    .contacts_info .title
+    {
+        font-size: 32px;
+        line-height: 40px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 264px);
+        height: 189px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography .types
+    {
+        margin-top: 24px;
+    }
+
+
+    .geography .types .col
+    {
+        width: 100%;
+
+        border-bottom: 1px solid rgba(35, 35, 35, .20);
+    }
+
+
+    .geography .types .title
+    {
+        font-size: 24px;
+        line-height: 40px;
+
+        margin-bottom: 0;
+        padding: 20px 64px 20px 0;
+
+        cursor: pointer;
+        pointer-events: auto;
+
+        color: var(--font_size);
+    }
+
+
+    .geography .types .items
+    {
+        display: none;
+
+        padding-bottom: 20px;
+    }
+
+
+    .geography .types .items > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .data .info
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+    .order_block .data .info .title,
+    .order_block .data .info .title.small
+    {
+        font-size: 28px;
+    }
+
+
+    .order_block .data .form
+    {
+        width: 100%;
+    }
+
+
+    .order_block .data .form .submit
+    {
+        padding: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col
+    {
+        margin-bottom: 36px;
+    }
+
+
+
+    footer .menu
+    {
+        width: 100%;
+    }
+
+
+    footer .menu .row
+    {
+        justify-content: center;
+    }
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin-top: 36px;
+
+        text-align: center;
+    }
+
+
+    footer .copyright
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 24px;
+
+        text-align: center;
+    }
+
+
+    footer .links
+    {
+        justify-content: center;
+
+        width: 100%;
+    }
+
+
+    footer .creator
+    {
+        justify-content: center;
+        order: 3;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 800px;
+        padding: 48px 60px;
+    }
+
+
+    .modal_title
+    {
+        margin-bottom: 30px;
+    }
+}

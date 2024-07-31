@@ -1,0 +1,872 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .content
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 44px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header.absolute .cont
+    {
+        padding: 0 40px;
+    }
+
+
+    header.absolute .logo
+    {
+        display: block;
+    }
+
+
+    header.absolute .logo img
+    {
+        width: 300px;
+    }
+
+
+
+    header:not(.absolute)
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+        left: auto;
+
+        width: 100%;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+
+        background: #fff;
+    }
+
+    header:not(.absolute).show
+    {
+        transform: translateX(100%);
+    }
+
+
+    header:not(.absolute) .scroll
+    {
+        position: relative;
+        z-index: 1;
+
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 56px 0 24px;
+
+        overscroll-behavior-y: contain;
+    }
+
+    header:not(.absolute) .scroll > *
+    {
+        width: 100%;
+    }
+
+
+    header:not(.absolute) .logo
+    {
+        display: none;
+    }
+
+
+    header:not(.absolute) .menu
+    {
+        font-size: 16px;
+
+        display: block;
+        order: 1;
+
+        width: 100%;
+        margin: 0;
+    }
+
+
+    header:not(.absolute) .menu_item > a
+    {
+        margin: 0 -24px;
+        padding: 12px 24px;
+
+        text-align: left;
+
+        border-radius: 0;
+    }
+
+
+    header .menu_item .sub_menu,
+    header .menu_item:hover .sub_menu
+    {
+        position: relative;
+
+        display: none;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px 12px;
+        padding: 10px 0;
+    }
+
+
+    header .menu_item > a.touch_link + .sub_menu.show
+    {
+        display: block;
+        visibility: visible;
+    }
+
+
+
+    header:not(.absolute) .contacts
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 30px;
+
+        text-align: left;
+    }
+
+
+
+    header:not(.absolute) .messengers
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    header:not(.absolute) .messengers a
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    header:not(.absolute) .messengers .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    header:not(.absolute) .feedback_btn
+    {
+        order: 3;
+
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+    aside .title
+    {
+        line-height: calc(100% + 6px);
+
+        margin-top: 0;
+    }
+
+
+    aside .title.small
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+    aside .title.small br
+    {
+        display: none;
+    }
+
+
+    aside .desc
+    {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+
+    aside .desc br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        font-size: 15px;
+    }
+
+
+    .form textarea
+    {
+        font-size: 15px;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 224px;
+    }
+
+
+
+    /*----------------
+        Enter page
+    ----------------*/
+    .enter_page > *
+    {
+        padding: 80px 40px 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .slider
+    {
+        width: 400px;
+    }
+
+
+    .first_section .slider .swiper-slide
+    {
+        min-height: 480px;
+        padding: 48px 24px 96px;
+    }
+
+
+    .first_section .slider .btn
+    {
+        width: 224px;
+    }
+
+
+    .first_section .slider .controls
+    {
+        padding: 24px;
+    }
+
+
+
+    .first_section .image
+    {
+        width: calc(100% - 424px);
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .item .name
+    {
+        padding-left: 68px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .projects .project .stickers
+    {
+        top: 12px;
+        left: 12px;
+
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+
+    .projects .project .stickers > *
+    {
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .projects .project .stickers .type,
+    .projects .project .stickers .city,
+    .projects .project .stickers .metro
+    {
+        font-size: 13px;
+    }
+
+
+    .projects .project .stickers .metro_name
+    {
+        padding-left: 16px;
+    }
+
+
+    .projects .project .stickers .metro_name:before
+    {
+        width: 8px;
+        height: 8px;
+    }
+
+
+    .projects .project .stickers .metro .wolk_distance .icon
+    {
+        margin-right: 4px;
+    }
+
+
+    .projects .project .thumb
+    {
+        height: 220px;
+    }
+
+
+    .projects .project .info > *:first-child
+    {
+        width: calc(100% - 136px);
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 18px;
+    }
+
+
+    .projects .project .btn
+    {
+        width: 112px;
+    }
+
+
+    .projects .project.big .thumb
+    {
+        height: 292px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .item .val
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .head
+    {
+        padding: 60px 0 40px;
+    }
+
+
+    .steps .step
+    {
+        height: 192px;
+        padding: 24px;
+    }
+
+
+    .steps .step .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .steps .step:not(.empty):before
+    {
+        font-size: 26px;
+
+        bottom: 24px;
+        left: 24px;
+    }
+
+
+
+    /*-----------
+        Staff
+    -----------*/
+    .staff .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .staff .grid > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .staff .item .name.top,
+    .staff .item .info,
+    .staff .item .btns
+    {
+        padding: 16px;
+    }
+
+
+    .staff .item .name
+    {
+        font-size: 18px;
+
+        width: calc(100% - 136px);
+    }
+
+
+    .staff .item .btn,
+    .staff .item .btn.order_btn,
+    .staff .item .btn.details_btn
+    {
+        width: 112px;
+    }
+
+
+    .staff .item .btn + .btn
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc
+    {
+        padding: 60px 0;
+    }
+
+
+    .calc .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .calc .form .columns
+    {
+        --form_columns_offset: 24px;
+    }
+
+
+    .calc .form .line
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .calc .form .mini_modal_btn
+    {
+        font-size: 15px;
+
+        padding-right: 16px;
+    }
+
+
+    .calc .form .mini_modal_btn .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .calc .form .included .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .calc .form .included .row > *
+    {
+        max-width: calc(100% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+        padding-left: 40px;
+    }
+
+
+    .calc .form .included .row > *:nth-child(3n+1)
+    {
+        width: 189px;
+    }
+
+    .calc .form .included .row > *:nth-child(3n+2)
+    {
+        width: 270px;
+    }
+
+    .calc .form .included .row > *:nth-child(3n+3)
+    {
+        width: 256px;
+    }
+
+
+
+    /*-----------------
+        Calc result
+    -----------------*/
+    .calc_result
+    {
+        padding: 60px 0;
+    }
+
+
+    .calc_result .items
+    {
+        width: 100%;
+    }
+
+
+    .calc_result .total_price
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+    .calc_result .total_price .label
+    {
+        font-size: 15px;
+    }
+
+
+    .calc_result .total_price .label br
+    {
+        display: none;
+    }
+
+
+    .calc_result .total_price .price
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block
+    {
+        padding: 60px 0;
+    }
+
+
+    .order_block .data
+    {
+        padding: 40px;
+    }
+
+
+    .order_block .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .order_block .data .info
+    {
+        width: 320px;
+    }
+
+
+    .order_block .data .info .title
+    {
+        font-size: 30px;
+    }
+
+
+    .order_block .data .form
+    {
+        width: calc(100% - 360px);
+    }
+
+
+    .order_block .data .block_head
+    {
+        padding: 0;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases aside.absolute
+    {
+        position: relative;
+        left: 0;
+    }
+
+
+    .cases aside:not(.absolute)
+    {
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    .cases .customer
+    {
+        width: calc(50% - 12px);
+        margin-top: 0;
+    }
+
+
+    .cases .location
+    {
+        width: calc(50% - 12px);
+        margin-top: 0;
+        margin-left: auto;
+    }
+
+
+    .cases .customer .label,
+    .cases .location .label
+    {
+        font-size: 18px;
+
+        margin-bottom: 16px;
+        padding-bottom: 4px;
+    }
+
+
+    .cases .case_title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .cases .gallery
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .cases .data .item .title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .info
+    {
+        width: 240px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 280px);
+        height: 205px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography .types
+    {
+        margin-top: 60px;
+    }
+
+
+    .geography .types .col
+    {
+        width: 310px;
+    }
+
+
+    .geography .types .title
+    {
+        font-size: 26px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    footer .logo img
+    {
+        width: 300px;
+    }
+
+
+    footer .messengers
+    {
+        margin-top: 0;
+        margin-left: auto;
+    }
+
+
+    footer .menu
+    {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+
+    footer .contacts .phone
+    {
+        font-size: 26px;
+    }
+
+
+    footer .contacts .work_time
+    {
+        margin-top: 4px;
+    }
+
+
+    footer .links
+    {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+
+    footer .creator
+    {
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+}
