@@ -1414,6 +1414,8 @@ aside .desc
 {
     position: relative;
     z-index: 3;
+
+    width: 100%;
 }
 
 
@@ -4054,7 +4056,7 @@ aside .desc
     right: 0;
     bottom: 0;
 
-    display: flex;
+    display: none;
     align-content: center;
     align-items: center;
     flex-wrap: wrap;

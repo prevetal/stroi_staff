@@ -159,16 +159,6 @@
 
 
 
-    /*------------
-        Why we
-    ------------*/
-    .why_we .item .val
-    {
-        font-size: 24px;
-    }
-
-
-
     /*-----------
         Steps
     -----------*/
@@ -180,14 +170,8 @@
 
     .steps .step .name
     {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-
-    .steps .step:not(.empty):before
-    {
-        font-size: 24px;
+        font-size: 20px;
+        line-height: 25px;
     }
 
 
@@ -443,6 +427,12 @@
         pointer-events: auto;
 
         color: var(--font_size);
+    }
+
+
+    .geography .types .title .icon
+    {
+        display: flex;
     }
 
 

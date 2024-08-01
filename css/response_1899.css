@@ -412,8 +412,6 @@
 
     .why_we .item .val
     {
-        font-size: 30px;
-
         margin-bottom: 20px;
         padding-bottom: 20px;
     }
@@ -459,8 +457,6 @@
 
     .steps .step:not(.empty):before
     {
-        font-size: 30px;
-
         bottom: 40px;
         left: 40px;
     }

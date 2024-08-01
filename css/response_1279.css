@@ -441,16 +441,6 @@
 
 
 
-    /*------------
-        Why we
-    ------------*/
-    .why_we .item .val
-    {
-        font-size: 26px;
-    }
-
-
-
     /*-----------
         Steps
     -----------*/
@@ -463,7 +453,7 @@
     .steps .step
     {
         height: 192px;
-        padding: 24px;
+        padding: 30px 20px;
     }
 
 
@@ -476,10 +466,8 @@
 
     .steps .step:not(.empty):before
     {
-        font-size: 26px;
-
-        bottom: 24px;
-        left: 24px;
+        bottom: 30px;
+        left: 20px;
     }
 
 
@@ -736,7 +724,7 @@
     .cases .customer .label,
     .cases .location .label
     {
-        font-size: 18px;
+        font-size: 24px;
 
         margin-bottom: 16px;
         padding-bottom: 4px;
@@ -799,6 +787,12 @@
         font-size: 26px;
 
         margin-bottom: 20px;
+    }
+
+
+    .geography .map .point
+    {
+        display: none;
     }
 
 
