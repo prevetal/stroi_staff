@@ -1450,6 +1450,7 @@ aside .desc
     margin-top: 50px;
     padding: 11px 37px 12px;
 
+    transition: background .2s linear;
     text-align: center;
     vertical-align: top;
 
@@ -1477,6 +1478,12 @@ aside .desc
     pointer-events: none;
 
     object-fit: cover;
+}
+
+
+.enter_page a:hover .btn
+{
+    background: #1375ba;
 }
 
 
