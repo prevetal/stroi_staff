@@ -1461,7 +1461,8 @@ aside .desc
 }
 
 
-.enter_page .bg
+.enter_page .bg,
+.enter_page video
 {
     position: absolute;
     z-index: 1;

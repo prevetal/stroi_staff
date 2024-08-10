@@ -56,7 +56,11 @@
 							<div class="btn">Перейти на сайт</div>
 						</div>
 
-						<img src="images/tmp/bg_for_client.jpg" alt="" class="bg" loading="lazy">
+						<!-- <img src="images/tmp/bg_for_client.jpg" alt="" class="bg" loading="lazy"> -->
+
+						<video loop playsinline muted>
+							<source src="video.mp4" type="video/mp4">
+						</video>
 					</a>
 
 					<a href="/" class="for_applicant">
@@ -68,10 +72,29 @@
 							<div class="btn">Перейти на сайт</div>
 						</div>
 
-						<img src="images/tmp/bg_for_applicant.jpg" alt="" class="bg" loading="lazy">
+						<!-- <img src="images/tmp/bg_for_applicant.jpg" alt="" class="bg" loading="lazy"> -->
+
+						<video loop playsinline muted>
+							<source src="video.mp4" type="video/mp4">
+						</video>
 					</a>
 				</section>
 			</div>
 		</div>
 	</body>
+
+	<script>
+		const items = document.querySelectorAll('.enter_page a')
+
+		if (items) {
+			items.forEach(item => {
+				let video = item.querySelector('video')
+
+				if (video) {
+					item.addEventListener('mouseover', () => video.play())
+            		item.addEventListener('mouseleave', () => video.pause())
+				}
+			})
+		}
+	</script>
 </html>
